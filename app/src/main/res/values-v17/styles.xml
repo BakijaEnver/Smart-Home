@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ProgressEsp" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/colorPrimaryWhite</item>
+        <item name="colorAccent">@color/colorBlue</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+</resources>

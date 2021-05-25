@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:background="@drawable/dialog_back"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:background="@drawable/command_popup_title_back"
+            android:textColor="@color/colorPrimaryWhite"
+            android:layout_height="50sp"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/commandname"/>
+
+        <TextView
+            android:id="@+id/textWaiting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/press_command"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:layout_marginBottom="40sp"/>
+
+        <ImageView
+            android:id="@+id/failed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/failed_icon_big"
+            android:layout_marginTop="-65sp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/success_icon_2_green"
+            android:layout_marginTop="-67sp"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/imgCommandPopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/config_image"
+            android:layout_marginTop="-20sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/textCommandPopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-light"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-20sp"
+            android:layout_marginBottom="40sp"/>
+
+        <Button
+            android:id="@+id/Komanda2"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:text="OK"
+            android:textColor="@color/colorPrimaryWhite"
+            android:textStyle="normal|bold"
+            android:textSize="14sp"
+            android:padding="1sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:background="@drawable/dialog_button_all"
+            android:drawablePadding="10sp"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

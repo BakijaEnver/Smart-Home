@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    tools:context="com.example.enver.flinkhomev1.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.percent.PercentFrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:background="@color/colorFullTransparent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/bs"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:background="@drawable/text_button_effect"
+            android:textAllCaps="false"
+            android:text="Bosanski"
+            android:layout_gravity="end"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/en"
+            android:textAlignment="center"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:background="@drawable/text_button_effect"
+            android:textAllCaps="false"
+            android:text="English"
+            android:fontFamily="sans-serif-light"
+            android:textSize="12sp"/>
+        </LinearLayout>
+
+    <ImageView android:src="@drawable/flink_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:layout_marginTopPercent="12%"
+       />
+        </android.support.percent.PercentFrameLayout>
+
+        <android.support.percent.PercentFrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:background="@color/colorFullTransparent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:singleLine="true"
+        android:textCursorDrawable="@color/colorPrimaryWhite"
+        app:layout_marginTopPercent="20%"
+        app:layout_widthPercent="80%"
+        android:hint="@string/username"
+        android:drawableRight="@drawable/user_icon"
+        android:drawablePadding="15sp"
+        android:textSize="17sp"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="#FFFFFF"
+        android:paddingBottom="5sp"
+        android:fontFamily="sans-serif-light"
+        android:background="@drawable/edit_text_selector"
+        android:inputType="textPersonName"
+        />
+        </android.support.percent.PercentFrameLayout>
+
+        <android.support.percent.PercentFrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:background="@color/colorFullTransparent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:singleLine="true"
+        android:hint="* * * * * * * * *"
+        android:textCursorDrawable="@color/colorPrimaryWhite"
+        app:layout_marginTopPercent="10%"
+        android:drawableRight="@drawable/password_icon"
+        android:drawablePadding="15sp"
+        app:layout_widthPercent="80%"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="#FFFFFF"
+        android:background="@drawable/edit_text_selector"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textPassword"
+        android:paddingBottom="5dp"
+        />
+        </android.support.percent.PercentFrameLayout>
+
+        <android.support.percent.PercentFrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:background="@color/colorFullTransparent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:onClick="OnLogin"
+        android:text="@string/login_button"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="80%"
+        android:layout_height="38sp"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        android:textColor="@color/colorBlue"
+        android:background="@drawable/login_button_selector"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp" />
+        </android.support.percent.PercentFrameLayout>
+    <Button
+        android:id="@+id/btnForgotPw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_button_effect"
+        android:textColor="@color/colorPrimaryWhite"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:text="@string/forgot_password"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:onClick="OpenForgotPassword"
+        android:layout_marginTop="5sp"
+        android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Language_layout"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="0dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OpenReg"
+        android:background="@drawable/text_button_effect"
+        android:textColor="@color/colorPrimaryWhite"
+        android:fontFamily="sanse-serif"
+        android:drawableLeft="@drawable/add_account_icon"
+        android:text="@string/create_account"
+        android:drawablePadding="8dp"
+        android:textSize="13sp"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="20sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

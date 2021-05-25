@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="150" android:exitFadeDuration="150">
+    <item android:drawable="@color/colorFullTransparent" android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <padding android:left="5dp"
+                android:top="5dp"
+                android:right="5dp"
+                android:bottom="5dp"/>
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    <item android:drawable="@color/colorFullTransparent" android:state_focused="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <padding android:left="5dp"
+                android:top="5dp"
+                android:right="5dp"
+                android:bottom="5dp"/>
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    <item>
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+            <item>
+                <shape android:shape="rectangle" >
+                    <solid android:color="@color/colorFullTransparent" />
+                </shape>
+            </item>
+            <item android:top="-2dp" android:right="-2dp" android:left="-2dp">
+                <shape>
+                    <solid android:color="@android:color/transparent" />
+                    <stroke
+
+                        android:width="1dp"
+                        android:color="#f1f1f1" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
+

@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">Flink Home</string>
+    <string name="title_activity_selam">Hello</string>
+    <string name="navigation_drawer_open">Öffnen Sie die Schublade</string>
+    <string name="navigation_drawer_close">Schliessschloss schließen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_menu">Menü</string>
+    <string name="title_activity_menu_right">Menü Rechts</string>
+    <string name="hello_world">Hallo Welt!</string>
+    <string name="app_version">v0.3.4.6</string>
+    <string name="tvApSsidTitle">SSID: </string>
+    <string name="tvPasswordTitle">Password: </string>
+    <string name="switchIsSsidHiddenTitle">SSID is Hidden</string>
+    <string name="spinnerTaskResultCountTitle">Task result count</string>
+    <string name="btnConfirmTitle">Bestätigen</string>
+
+    <!-- LOGIN & REGISTER -->
+    <string name="login_button">Anmelden</string>
+    <string name="register_button">Neu registrieren</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="forgot_password">Du hast dein Passwort vergessen?</string>
+    <string name="forgot_password1">Du hast dein Passwort vergessen</string>
+    <string name="forgot_password_text">Bitte geben Sie die E-Mail-Adresse Ihres Kontos ein.</string>
+    <string name="reset_password">Passwort zurücksetzen</string>
+    <string name="successfully_reset_password">Ihr Passwort wurde erfolgreich zurückgesetzt. Bitte überprüfen Sie Ihre E-Mail</string>
+    <string name="create_account">Benutzerkonto erstellen</string>
+    <string name="first_name">Name</string>
+    <string name="last_name">Nachname</string>
+    <string name="email_address">E-mail</string>
+    <string name="re_type_password">Wiederholen Sie das Passwort</string>
+    <string name="have_an_account"> Konto bereits erstellt?</string>
+
+    <!-- STEPS -->
+    <string name="step4_title">Step 4</string>
+    <string name="step4_text">Geben Sie den Namen Ihres Geräts ein (optional).</string>
+    <string name="step3_title">Step 3</string>
+    <string name="step3_text">Wählen Sie eines der angeschlossenen Flink-Geräte aus.</string>
+    <string name="step2_title">Step 2</string>
+    <string name="step2_text">Geben Sie das Passwort Ihres Heimnetzwerks ein.</string>
+    <string name="step1_title">Step 1</string>
+    <string name="step1_text">Wählen Sie den Typ Ihres Flink Gerätes.</string>
+    <string name="name_of_device">Name des Gerätes </string>
+    <string name="step4_checkbox">Möchten Sie sofort eine Fernbedienung für dieses Gerät erstellen?</string>
+    <string name="finish">Fertig</string>
+    <string name="next_step">   Nächster Schritt     </string>
+
+    <!-- REMOTE CONFIG & DEVICE -->
+    <string name="remote_configuarion">Lenkkonfiguration</string>
+    <string name="remote_configuration_text">Bitte schalten Sie Ihre Klimaanlage aus, wenn Sie den Befehl ANSCHALTEN hinzufügen möchten. \ n Für alle anderen Befehle sollte Ihr Klimagerät eingeschaltet sein. </string>
+    <string name="edit_commands">Bearbeiten von Befehlen</string>
+    <string name="swith">Schalter</string>
+    <string name="turned_off">Ihr Gerät ist ausgeschaltet.</string>
+    <string name="mode">Modus</string>
+    <string name="temperature">Temp</string>
+    <string name="fan">Geschwindigkeit</string>
+    <string name="swing">Position</string>
+    <string name="choose_room">Wähle dein Zimmer</string>
+    <string name="create_room">Erstellen Sie ein neues Zimmer</string>
+    <string name="home">Zuhause</string>
+    <string name="my_account">Mein Konto</string>
+    <string name="share_home">Teilen Sie das Haus</string>
+    <string name="settings">Einstellungen</string>
+    <string name="help_support">Hilfe und Unterstützung</string>
+    <string name="logout">Abmelden</string>
+    <string name="fan_commands">Fan-Befehle</string>
+    <string name="mode_commands"> Mod-Befehle</string>
+    <string name="swing_commands">Befehlspositionen</string>
+    <string name="switch_commands">Schaltung Befehle</string>
+    <string name="temperature_commands">Temperaturbefehle</string>
+
+    <!--MY ACCOUNT-->
+    <string name="change_account_details">Ändern Sie Ihre Kontoeinstellungen</string>
+    <string name="change_your_password">Ändern Sie Ihr Passwort</string>
+    <string name="old_password">Altes Passwort</string>
+    <string name="new_password">Neues Passwort</string>
+    <string name="re_type_new_password">Wiederholen Sie das neue Passwort</string>
+    <string name="change_password">Ändern Sie Ihr Passwort</string>
+
+    <!-- SETTINGS-->
+    <string name="general_settings">Allgemeine Einstellungen
+	</string>
+    <string name="sound">Ton</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="app_information">Anwendungsinformationen</string>
+    <string name="current_version">Aktuelle Version</string>
+    <string name="app_settings">App-Einstellungen</string>
+    <string name="choose_language">Sprache wählen</string>
+
+    <!--SHARE HOME-->
+    <string name="share_home_text">Bitte geben Sie die E-Mail-Adresse des Benutzers ein, mit dem Sie das Haus teilen möchten!</string>
+    <string name="email_example">email@hotmail.com</string>
+    <string name="search">Suche</string>
+
+    <!--DEVICE POPUPS-->
+    <string name="select_swing_position">Wählen Sie die Lüfterposition auf Ihrem Gerät.</string>
+    <string name="select_speed_of_device">Wählen Sie die Geschwindigkeit Ihres Gerätes.</string>
+    <string name="select_mode_of_device">Wählen Sie den Modus Ihres Geräts.</string>
+    <string name="bottom">Bott</string>
+    <string name="low">Niedrig</string>
+    <string name="mid">Mid</string>
+    <string name="high">Hoch</string>
+    <string name="top">Top</string>
+    <string name="max">Max</string>
+    <string name="auto">Auto</string>
+    <string name="cool">Cool</string>
+    <string name="fan_mode">Fan</string>
+    <string name="dry">Trocken</string>
+    <string name="heat">Warme</string>
+    <string name="press_command">Drücken Sie den Befehl auf Ihrer Fernbedienung.</string>
+    <string name="trying_to_connect">Wir versuchen, Ihr Gerät anzuschließen. \ N Bitte warten ...</string>
+    <string name="press_ok_button">Drücken Sie die Taste unten.</string>
+    <string name="sure_want_to_delete">Möchten Sie dieses Gerät wirklich löschen??</string>
+    <string name="sure">Seid ihr sicher?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="edit_remote">Bearbeiten Sie die Fernbedienung</string>
+    <string name="history">Geschichte</string>
+    <string name="calendar">Kalender</string>
+    <string name="delete_device">Löschen Sie das Gerät</string>
+
+    <!-- APP BAR-->
+    <string name="add_room">Hinzufügen Sie ein Zimmer</string>
+    <string name="add_device">Gerät hinzufügen</string>
+
+    <!--POPUPS-->
+    <string name="congratulations">Herzlichen Glückwunsch!</string>
+    <string name="successfully_logged_in">Sie haben sich erfolgreich angemeldet.</string>
+    <string name="successfully_device_created">Ihr Gerät wurde erfolgreich erstellt>.</string>
+    <string name="successfully_user_created">Ihr Konto wurde erfolgreich erstellt. \ N Bestätigungs-E-Mail wurde an Ihre E-Mail-Adresse gesendet.</string>
+    <string name="flink_touch_configuring">FlinkTouch ist konfiguriert. \ N Bitte warten ...</string>
+    <string name="problem_occured_while_connecting">Es tut uns leid, da war ein Problem mit der Verbindung. \ N Versuchen Sie es erneut.</string>
+    <string name="there_is_no_internet_connection">Es tut uns leid, es gibt keine Internetverbindung. \ N Versuchen Sie es erneut>.</string>
+    <string name="room_name">Raumname</string>
+    <string name="enter_room_name">Geben Sie einen Raumnamen ein, um Ihr Zimmer zu erstellen.</string>
+    <string name="problem_occured_while_connecting_redirect">Es tut uns leid, da war ein Problem mit der Verbindung. \ N Versuchen Sie es erneut.</string>
+
+    <!--CODE-->
+    <string name="password_changed_success">Passwort erfolgreich geändert. \ Bitte melden Sie sich erneut an.</string>
+    <string name="command_add_failed">Hinzufügen eines Befehls fehlgeschlagen.</string>
+    <string name="command_added">Befehl hinzugefügt>.</string>
+    <string name="please_wait">Bitte warten.</string>
+    <string name="dont_have_any_room">! Du hast keine Räume kreiert.. Bitte machen Sie dies unten.</string>
+    <string name="please_enter_new_name">Bitte geben Sie einen neuen Namen ein.</string>
+    <string name="please_enter_new_surname">Bitte geben Sie einen neuen Nachnamen ein.</string>
+    <string name="please_enter_an_email">Bitte geben Sie eine E-Mail-Adresse ein.</string>
+    <string name="password_do_not_match">Die Passwörter sind nicht einverstanden.</string>
+    <string name="at_least_3">mindestens 3 Zeichen</string>
+    <string name="between_4_10">zwischen 4 und 10 Zeichen</string>
+    <string name="valid_email_address">Geben Sie die richtige E-Mail-Adresse ein</string>
+    <string name="room_success_created">Ihr Zimmer wurde erfolgreich erstellt.</string>
+    <string name="dont_have_any_devices">! Sie haben keine Geräte in diesem Raum. Bitte machen Sie dies unten.</string>
+    <string name="wrong_password">Falsches Passwort</string>
+    <string name="wrong_username">Falscher Benutzername></string>
+    <string name="password_incorect">Das Passwort ist falsch.</string>
+    <string name="sorry_command_not_added">Der Befehl wurde noch nicht hinzugefügt.</string>
+    <string name="select_time">Wählen Sie die Zeit</string>
+    <string name="select_commands">Wählen Sie die Befehle</string>
+    <string name="save">Speichern</string>
+    <string name="close">Schliessen></string>
+    <string name="option_added_later">Diese Option ist in der folgenden Version verfügbar.</string>
+    <string name="username_exist">Der Benutzername ist besetzt.</string>
+    <string name="email_exist">Die E-Mail-Adresse ist bereits in Gebrauch.</string>
+    <string name="account_not_approved">Ihr Konto wurde nicht aktiviert.</string>
+    <string name="firstname_changed">Name geändert>.</string>
+    <string name="lastname_changed">Nachname wurde geändert.</string>
+    <string name="change_room_name">Bearbeiten Sie den Raumnamen</string>
+    <string name="delete_room">Löschen Sie den Raum</string>
+    <string name="room_settings">Raumeinstellungen</string>
+    <string name="edit_room_name">Ändern Sie Ihren Namen</string>
+    <string name="room_name_changed">Der Raumname wurde erfolgreich geändert.</string>
+    <string name="enter_new_room_name">Geben Sie einen neuen Raumnamen ein</string>
+    <string name="delete_room_text">Alle Geräte in diesem Raum werden gelöscht. Willst du wirklich fortfahren?</string>
+    <string name="edit_device_name">Bearbeiten des Gerätenamens</string>
+    <string name="device_name_changed">Der Gerätename wurde erfolgreich geändert.</string>
+    <string name="enter_new_device_name">Geben Sie den neuen Gerätenamen ein</string>
+    <string name="show_password">Passwort anzeigen</string>
+</resources>

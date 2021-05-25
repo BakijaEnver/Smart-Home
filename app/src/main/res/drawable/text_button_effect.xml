@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="150" android:exitFadeDuration="150">
+    <item android:drawable="@color/colorTransparent10" android:state_pressed="true">
+    </item>
+    <item android:drawable="@color/colorTransparent10" android:state_focused="true">
+    </item>
+    <item android:drawable="@color/colorFullTransparent">
+    </item>
+</selector>
+

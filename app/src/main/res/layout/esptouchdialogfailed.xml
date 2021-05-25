@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="15sp"
+    android:layout_marginLeft="15sp"
+    android:padding="0sp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_back"
+        android:id="@+id/linearLayout"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/failed_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="15sp"/>
+
+        <TextView
+            android:id="@+id/dialog_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20sp"
+            android:textSize="14sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            android:lineSpacingExtra="5sp"
+            android:layout_marginTop="5sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/problem_occured_while_connecting"/>
+
+    </LinearLayout>
+</RelativeLayout>

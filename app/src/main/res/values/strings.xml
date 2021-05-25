@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Flink Home</string>
+    <string name="title_activity_selam">selam</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_menu_right">MenuRight</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_version">v0.3.4.6</string>
+    <string name="tvApSsidTitle">SSID: </string>
+    <string name="tvPasswordTitle">Password: </string>
+    <string name="switchIsSsidHiddenTitle">SSID is Hidden</string>
+    <string name="spinnerTaskResultCountTitle">Task result count</string>
+    <string name="btnConfirmTitle">Confirm</string>
+
+    <!-- LOGIN & REGISTER -->
+    <string name="login_button">Log in</string>
+    <string name="register_button">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_password1">Forgot password</string>
+    <string name="forgot_password_text">Please enter e-mail address of your account.</string>
+    <string name="reset_password">Reset password</string>
+    <string name="create_account">Create account</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email_address">Email address</string>
+    <string name="re_type_password">Re-type password</string>
+    <string name="successfully_reset_password">Your password has been reset successfully. Check your mail inbox.</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="show_password">Show Password</string>
+
+    <!-- STEPS -->
+    <string name="step4_title">Step 4</string>
+    <string name="step4_text">Enter the name of your Flink device bellow (optional).</string>
+    <string name="step3_title">Step 3</string>
+    <string name="step3_text">Select one of connected Flink devices bellow.</string>
+    <string name="step2_title">Step 2</string>
+    <string name="step2_text">Enter password of your home network bellow.</string>
+    <string name="step1_title">Step 1</string>
+    <string name="step1_text">Select type of your Flink device bellow.</string>
+    <string name="name_of_device">Name of your device</string>
+    <string name="step4_checkbox">Would you like to create your remote controller for this device now?</string>
+    <string name="finish">Finish</string>
+    <string name="next_step">Next step</string>
+
+    <!-- REMOTE CONFIG & DEVICE -->
+    <string name="remote_configuarion">Remote configuration</string>
+    <string name="remote_configuration_text">Please, turn off your air conditioner if you want to edit command ON. \n For all other commands, your air conditioner needs to be turned on. </string>
+    <string name="edit_commands">Edit commands</string>
+    <string name="swith">Switch</string>
+    <string name="turned_off">Your device is turned OFF.</string>
+    <string name="mode">Mode</string>
+    <string name="temperature">Temp</string>
+    <string name="fan">Fan</string>
+    <string name="swing">Swing</string>
+    <string name="choose_room">Choose your room</string>
+    <string name="create_room">Create new room</string>
+    <string name="home">Home</string>
+    <string name="my_account">My account</string>
+    <string name="share_home">Share home</string>
+    <string name="settings">Settings</string>
+    <string name="help_support">Help and support</string>
+    <string name="logout">Logout</string>
+    <string name="fan_commands">Fan commands</string>
+    <string name="mode_commands">Mode commands</string>
+    <string name="swing_commands">Swing commands</string>
+    <string name="switch_commands">Switch commands</string>
+    <string name="temperature_commands">Temperature commands</string>
+
+    <!--MY ACCOUNT-->
+    <string name="change_account_details">Change your account details here</string>
+    <string name="change_your_password">Change your password</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="re_type_new_password">Re-type new password</string>
+    <string name="change_password">Change password</string>
+
+    <!-- SETTINGS-->
+    <string name="general_settings">General settings</string>
+    <string name="sound">Sound</string>
+    <string name="notifications">Notifications</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="app_information">App information</string>
+    <string name="current_version">Current version</string>
+    <string name="app_settings">Application settings</string>
+    <string name="choose_language">Choose language</string>
+
+    <!--SHARE HOME-->
+    <string name="share_home_text">Please, enter e-mail address of the user you want to share home with!</string>
+    <string name="email_example">example@hotmail.com</string>
+    <string name="search">Search</string>
+
+    <!--DEVICE POPUPS-->
+    <string name="select_swing_position">Select swing position of your air conditioner.</string>
+    <string name="select_speed_of_device">Select speed of your air conditioner.</string>
+    <string name="select_mode_of_device">Select mode of your air conditioner.</string>
+    <string name="bottom">Bott</string>
+    <string name="low">Low</string>
+    <string name="mid">Mid</string>
+    <string name="high">High</string>
+    <string name="top">Top</string>
+    <string name="max">Max</string>
+    <string name="auto">Auto</string>
+    <string name="cool">Cool</string>
+    <string name="fan_mode">Fan</string>
+    <string name="dry">Dry</string>
+    <string name="heat">Heat</string>
+    <string name="press_command">Press command on your remote.</string>
+    <string name="trying_to_connect">We are trying to connect your device.\n Please wait...</string>
+    <string name="press_ok_button">Press button bellow.</string>
+    <string name="sure_want_to_delete">Are you sure you want to delete this device?</string>
+    <string name="sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="edit_remote">Edit remote</string>
+    <string name="history">History</string>
+    <string name="calendar">Calendar</string>
+    <string name="delete_device">Delete device</string>
+
+    <!-- APP BAR-->
+    <string name="add_room">Add room</string>
+    <string name="add_device">Add device</string>
+
+    <!--POPUPS-->
+    <string name="congratulations">Congratulations!</string>
+    <string name="successfully_logged_in">You are successfully logged in.</string>
+    <string name="successfully_device_created">Your device was successfully created.</string>
+    <string name="successfully_user_created">Your account was successfully created.\n Verification email has been sent to your email address.</string>
+    <string name="flink_touch_configuring">FlinkTouch is configuring.\n Please wait for a moment...</string>
+    <string name="problem_occured_while_connecting">Sorry, a problem occured while connecting.\n Try again.</string>
+    <string name="there_is_no_internet_connection">Sorry, there is no internet connection.\nPlease, try again.</string>
+    <string name="room_name">Room name</string>
+    <string name="enter_room_name">Enter room name in order to create new room.</string>
+    <string name="problem_occured_while_connecting_redirect">Sorry, a problem occured while connecting.\n You will be redirected to start.</string>
+
+    <!--CODE-->
+    <string name="password_changed_success">Password changed successfully. \nPlease log in again.</string>
+    <string name="command_add_failed">Command add failed.</string>
+    <string name="command_added">Command added.</string>
+    <string name="please_wait">Please wait.</string>
+    <string name="dont_have_any_room">! You do not have any room. Please, create your first room bellow.</string>
+    <string name="please_enter_new_name">Please enter new name.</string>
+    <string name="please_enter_new_surname">Please enter new surname.</string>
+    <string name="please_enter_an_email">Please enter an email.</string>
+    <string name="password_do_not_match">Password do not match.</string>
+    <string name="at_least_3">at least 3 characters</string>
+    <string name="between_4_10">between 4 and 10 alphanumeric characters</string>
+    <string name="valid_email_address">enter a valid email address</string>
+    <string name="room_success_created">Your room was successfully created.</string>
+    <string name="dont_have_any_devices">! You do not have any devices in this room. Please, create your first device bellow.</string>
+    <string name="wrong_password">Wrong password</string>
+    <string name="wrong_username">Wrong username</string>
+    <string name="password_incorect">Password incorrect.</string>
+    <string name="sorry_command_not_added">Sorry, this command is not added yet.</string>
+    <string name="select_time">Select time</string>
+    <string name="select_commands">Select commands</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="option_added_later">This option will be added in next version.</string>
+    <string name="username_exist">Username is taken.</string>
+    <string name="email_exist">Entered email already has an account.</string>
+    <string name="account_not_approved">Account not approved.</string>
+    <string name="firstname_changed">Firstname changed.</string>
+    <string name="lastname_changed">Lastname changed.</string>
+    <string name="change_room_name">Change room name</string>
+    <string name="delete_room">Delete room</string>
+    <string name="room_settings">Room settings</string>
+    <string name="edit_room_name">Change name</string>
+    <string name="room_name_changed">Room name successfully changed.</string>
+    <string name="enter_new_room_name">Enter new room name</string>
+    <string name="delete_room_text">Any devices in this room will not be available. Are you sure you want to delete this room?</string>
+    <string name="edit_device_name">Edit device name</string>
+    <string name="device_name_changed">Device name successfully changed.</string>
+    <string name="enter_new_device_name">Enter new device name</string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryWhite"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_select_commands"
+    tools:context="com.example.enver.flinkhomev1.SelectCommands">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/app_bar_back"
+        android:id="@+id/toolbar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageButton
+                android:id="@+id/imgLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Back"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:background="@color/colorFullTransparent"
+                android:paddingRight="10sp"
+                android:paddingLeft="10sp"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
+                android:src="@drawable/app_bar_back_button"
+                />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                />
+
+            <TextView
+                android:id="@+id/titlemain"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:text="@string/remote_configuarion"
+                android:textSize="18sp"
+                android:layout_marginRight="15sp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical|center"
+                android:textAlignment="gravity"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/imgRight"
+                android:layout_alignEnd="@+id/imgRight" />
+
+            <TextView
+                android:id="@+id/titleright"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/swithCom"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:onClick="swithCom"
+        android:text="@string/switch_commands"
+        android:fontFamily="sans-serif"
+        android:gravity="center|left"
+        android:textAlignment="gravity"
+        android:layout_gravity="start|left"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:drawableRight="@drawable/arrow_room_icon"
+        android:textAllCaps="true"
+        android:background="@drawable/settings_line_code"
+        android:layout_alignParentTop="true"
+       />
+
+        <Button
+            android:id="@+id/modeCom"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:text="@string/mode_commands"
+            android:fontFamily="sans-serif"
+            android:gravity="center|left"
+            android:textAlignment="gravity"
+            android:layout_gravity="start|left"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:drawableRight="@drawable/arrow_room_icon"
+            android:textAllCaps="true"
+            android:background="@drawable/settings_line_code"
+            android:layout_alignParentTop="true"
+            android:onClick="modeCom"/>
+
+        <Button
+            android:id="@+id/fanCom"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:text="@string/fan_commands"
+            android:fontFamily="sans-serif"
+            android:gravity="center|left"
+            android:textAlignment="gravity"
+            android:layout_gravity="start|left"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:drawableRight="@drawable/arrow_room_icon"
+            android:textAllCaps="true"
+            android:background="@drawable/settings_line_code"
+            android:layout_alignParentTop="true"
+            android:onClick="fanCom"/>
+
+        <Button
+            android:id="@+id/swingCom"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:text="@string/swing_commands"
+            android:fontFamily="sans-serif"
+            android:gravity="center|left"
+            android:textAlignment="gravity"
+            android:layout_gravity="start|left"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:drawableRight="@drawable/arrow_room_icon"
+            android:textAllCaps="true"
+            android:background="@drawable/settings_line_code"
+            android:layout_alignParentTop="true"
+            android:onClick="swingCom"/>
+
+        <Button
+            android:id="@+id/tempCom"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:text="@string/temperature_commands"
+            android:fontFamily="sans-serif"
+            android:gravity="center|left"
+            android:textAlignment="gravity"
+            android:layout_gravity="start|left"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:drawableRight="@drawable/arrow_room_icon"
+            android:textAllCaps="true"
+            android:background="@drawable/settings_line_code"
+            android:layout_alignParentTop="true"
+            android:onClick="tempCom"/>
+
+    </LinearLayout>
+</RelativeLayout>

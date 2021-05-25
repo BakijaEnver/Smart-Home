@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@drawable/settings_line_code"
+        >
+
+        <ImageButton
+            android:id="@+id/imgLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/arrow_room_icon"
+            />
+
+        <TextView
+            android:id="@+id/deviceinroom"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:text="Moj uredjaj"
+            android:fontFamily="sans-serif"
+            android:gravity="top|left"
+            android:textAlignment="gravity"
+            android:layout_gravity="start|left"
+            android:paddingTop="10sp"
+            android:paddingLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:textAllCaps="true"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:id="@+id/devicecategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textSize="12sp"
+            android:paddingLeft="10sp"
+            android:paddingBottom="10sp"
+            android:text="Flink Cool"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_vertical|left"
+            android:textAlignment="gravity"
+            android:layout_gravity="start"
+            android:layout_marginRight="10sp"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

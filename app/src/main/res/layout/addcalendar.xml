@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/addcalendar"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@drawable/dialog_back"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12sp"
+            android:text="Select time"
+            android:textColor="@color/colorBlack" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <TimePicker
+                android:id="@+id/timePicker"
+                android:layout_width="160sp"
+                android:layout_height="80sp"
+                android:layout_gravity="start"
+                android:background="@color/colorBlack"
+                android:numbersTextColor="@color/colorBlack"
+                />
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="fill_parent"
+                android:layout_height="80sp"
+                android:layout_marginLeft="5sp"
+                android:layout_toRightOf="@+id/timePicker"
+                android:calendarViewShown="false"
+                android:background="@color/colorBlack">
+
+            </DatePicker>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12sp"
+            android:text="Select commands"
+            android:textColor="@color/colorBlack" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/SwitchBtn"
+                android:text="Switch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorBlack"
+                android:textColor="@color/colorPrimaryWhite"/>
+            <Button
+                android:id="@+id/ModeBtn"
+                android:text="Mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="3dp"
+                android:background="@color/colorBlack"
+                android:textColor="@color/colorPrimaryWhite"/>
+            <Button
+                android:id="@+id/FanBtn"
+                android:text="Fan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="3dp"
+                android:background="@color/colorBlack"
+                android:textColor="@color/colorPrimaryWhite"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="3dp">
+            <Button
+                android:id="@+id/SwingBtn"
+                android:text="Swing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorBlack"
+                android:textColor="@color/colorPrimaryWhite"/>
+            <Button
+                android:id="@+id/TempBtn"
+                android:text="Temperature"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:background="@color/colorBlack"
+                android:textColor="@color/colorPrimaryWhite"/>
+        </LinearLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10sp">
+            <Button
+                android:id="@+id/Close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/Save"
+                android:layout_toRightOf="@+id/view"
+                android:text="Close"
+                android:textAlignment="gravity"
+                android:background="@drawable/dialog_button"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textStyle="normal|bold"/>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="3dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/Save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/view"
+                android:text="Save"
+                android:textAlignment="gravity"
+                android:background="@drawable/dialog_button"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textStyle="normal|bold"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

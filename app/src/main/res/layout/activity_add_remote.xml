@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_add_remote"
+    tools:context="com.example.enver.flinkhomev1.AddRemote">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/app_bar_back"
+        android:id="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageButton
+                android:id="@+id/imgLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Back"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:background="@color/colorFullTransparent"
+                android:paddingRight="10sp"
+                android:paddingLeft="10sp"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
+                android:src="@drawable/app_bar_back_button"
+                />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                />
+
+                <TextView
+                    android:id="@+id/titlemain"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:text="@string/remote_configuarion"
+                    android:textSize="18sp"
+                    android:layout_marginRight="15sp"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical|center"
+                    android:textAlignment="gravity"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@+id/imgRight"
+                    android:layout_alignEnd="@+id/imgRight" />
+
+                <TextView
+                    android:id="@+id/titleright"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/actionBarSize"
+                    />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true"
+        >
+
+        <android.support.percent.PercentFrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:background="@color/colorFullTransparent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                app:layout_heightPercent="100%">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/warning_icon_blue"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"
+        android:lineSpacingExtra="7sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="16sp"
+        android:text="@string/remote_configuration_text" />
+
+    </LinearLayout>
+    </RelativeLayout>
+    </android.support.percent.PercentFrameLayout>
+
+        <Button
+            android:id="@+id/moveon1"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:text="@string/edit_commands"
+            android:textAllCaps="true"
+            android:onClick="moveOn1"
+            android:background="@drawable/step_button_all"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorPrimaryWhite"
+            android:textStyle="normal|bold"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

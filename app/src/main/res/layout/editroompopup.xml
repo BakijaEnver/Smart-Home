@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorFullTransparent"
+    android:padding="0sp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:background="@drawable/dialog_back"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:background="@drawable/command_popup_title_back"
+            android:textColor="@color/colorPrimaryWhite"
+            android:layout_height="45sp"
+            android:textSize="16sp"
+            android:text="@string/room_settings"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal|center_vertical"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/editRoom"
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:text="@string/change_room_name"
+            android:textAllCaps="false"
+            android:paddingLeft="10sp"
+            android:gravity="start|center_vertical"
+            android:textSize="14sp"
+            android:fontFamily="sans-erif"
+            android:background="@drawable/settings_line_code"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:id="@+id/deleteRoom"
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:text="@string/delete_room"
+            android:textAllCaps="false"
+            android:paddingLeft="10sp"
+            android:gravity="start|center_vertical"
+            android:textSize="14sp"
+            android:fontFamily="sans-erif"
+            android:background="@drawable/settings_line_code"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

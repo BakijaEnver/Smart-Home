@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@drawable/settings_line_code"
+        >
+
+        <TextView
+            android:id="@+id/executedcommand"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:text="Switch: On"
+            android:fontFamily="sans-serif"
+            android:gravity="top|left"
+            android:textAlignment="gravity"
+            android:layout_gravity="start|left"
+            android:paddingTop="10sp"
+            android:paddingLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:textAllCaps="true"
+            android:layout_alignParentTop="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_alignParentBottom="true"
+            android:weightSum="2">
+        <TextView
+            android:id="@+id/executedtime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            android:paddingLeft="10sp"
+            android:paddingBottom="10sp"
+            android:text="05/10/2017  13:01"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_vertical|left"
+            android:textAlignment="gravity"
+            android:layout_gravity="start"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/executedusername"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="end"
+            android:textAlignment="textEnd"
+            android:text="FlinkCool_Demo "/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

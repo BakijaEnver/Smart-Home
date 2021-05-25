@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.enver.flinkhomev1.MainActivity">
+
+        <!-- Logo -->
+        <ImageView android:src="@drawable/flink_logo_big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Username"
+            android:drawableRight="@drawable/user_icon"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryWhite"
+            android:textColorHint="#FFFFFF"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/edit_text"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/btn_reg"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.45"
+            android:layout_marginStart="100dp"
+            android:paddingBottom="10dp"
+            android:layout_marginEnd="100dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="*********"
+            android:drawableRight="@drawable/password_icon"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:textColor="@color/colorPrimaryWhite"
+            android:textColorHint="#FFFFFF"
+            android:background="@drawable/edit_text"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.51"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="100dp"
+            android:paddingBottom="10dp"
+            android:layout_marginEnd="100dp" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:onClick="OnLogin"
+                android:text="LOG IN"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:background="@drawable/button_back"
+                android:fontFamily="sans-serif"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.649"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp" />
+
+            <Button
+                android:id="@+id/btnForgotPw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorFullTransparent"
+                android:textColor="@color/colorPrimaryWhite"
+                android:fontFamily="sans-serif-light"
+                android:text="Forgot password?"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:onClick="OpenForgotPassword"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.706"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+
+                <Button
+                    android:id="@+id/btn_reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="OpenReg"
+                    android:background="@color/colorFullTransparent"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:fontFamily="sanse-serif"
+                    android:drawableLeft="@drawable/add_account_icon"
+                    android:text="Create account"
+                    android:drawablePadding="10dp"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.997" />
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

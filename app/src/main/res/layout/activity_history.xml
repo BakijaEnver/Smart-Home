@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_history"
+    tools:context="com.example.enver.flinkhomev1.History">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/app_bar_back"
+        android:id="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageButton
+                android:id="@+id/imgLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Back"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:background="@color/colorFullTransparent"
+                android:paddingRight="10sp"
+                android:paddingLeft="10sp"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
+                android:src="@drawable/app_bar_back_button"
+                />
+
+            <TextView
+                android:id="@+id/titlemain"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:text="@string/history"
+                android:textSize="18sp"
+                android:layout_marginRight="15sp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical|center"
+                android:textAlignment="gravity"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/imgRight"
+                android:layout_alignEnd="@+id/imgRight" />
+
+            <TextView
+                android:id="@+id/titleright"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+   <ListView
+       android:id="@+id/historylist"
+       android:layout_marginTop="?attr/actionBarSize"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </ListView>
+
+
+</android.support.constraint.ConstraintLayout>

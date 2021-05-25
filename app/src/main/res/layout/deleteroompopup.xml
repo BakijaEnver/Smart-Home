@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|right"
+    android:background="@color/colorFullTransparent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:background="@drawable/dialog_back"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/warning_icon_blue"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20sp"
+            android:textSize="14sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            android:lineSpacingExtra="5sp"
+            android:layout_marginTop="5sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/delete_room_text"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <android.support.percent.PercentFrameLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/Yes"
+                    app:layout_widthPercent="49.9%"
+                    android:layout_height="40sp"
+                    android:text="@string/yes"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textStyle="normal|bold"
+                    android:textSize="14sp"
+                    android:padding="1sp"
+                    android:layout_gravity="left"
+                    android:gravity="center"
+                    android:textAlignment="gravity"
+                    android:background="@drawable/dialog_button_left"
+                    android:drawablePadding="10sp"/>
+
+                <Button
+                    android:id="@+id/No"
+                    app:layout_widthPercent="49.9%"
+                    android:layout_height="40sp"
+                    android:text="@string/no"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textStyle="normal|bold"
+                    android:textSize="14sp"
+                    android:padding="1sp"
+                    android:layout_gravity="right"
+                    android:gravity="center"
+                    android:textAlignment="gravity"
+                    android:background="@drawable/dialog_button_right"
+                    android:drawablePadding="10sp"/>
+            </android.support.percent.PercentFrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

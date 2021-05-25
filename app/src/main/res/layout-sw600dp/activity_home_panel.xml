@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.enver.flinkhomev1.HomePanel">
+    <include layout="@layout/app_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/drawer_left"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:clickable="true"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="507dp"
+            android:layout_gravity="start"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryWhite">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:text="Choose your room"
+                android:background="@color/colorBlue"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:drawableLeft="@drawable/room_icon_white"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"
+                android:drawablePadding="15sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical|left"
+                android:textAlignment="gravity"
+                />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listview"
+                ></ListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/AddRoom"
+                android:paddingTop="12sp"
+                android:paddingBottom="12sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginBottom="30sp"
+                android:text="CREATE NEW ROOM"
+                android:textSize="12sp"
+                android:minWidth="0dp"
+                android:gravity="center_horizontal|center"
+                android:layout_centerInParent="true"
+                android:paddingLeft="70sp"
+                android:paddingRight="70sp"
+                android:textAlignment="gravity"
+                android:background="@drawable/button_back_blue"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textStyle="normal|bold"
+                android:onClick="AddRoom"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/drawer_right"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="end"
+        android:clickable="true"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryWhite"
+            android:gravity="center"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="vertical"
+            android:onClick="closeRightDrawer"
+            android:background="@drawable/gradient"
+            android:paddingTop="35sp">
+
+            <TextView
+                android:id="@+id/menu_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80sp"
+                android:layout_marginTop="-48sp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textSize="20sp"
+                android:text="Username" />
+
+            <TextView
+                android:id="@+id/menu_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="80sp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:fontFamily="sans-serif-light"
+                android:textSize="16sp"
+
+                android:text="Email"/>
+        </LinearLayout>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Home"
+                android:onClick="Home"
+                android:id="@+id/Home"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="0sp"
+                android:paddingLeft="15sp"
+                android:layout_gravity="start"
+                android:background="@drawable/button_effect_sidebar"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/home_icon"
+                android:drawablePadding="15sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="My account"
+                android:onClick="Myaccount"
+                android:id="@+id/Myaccount"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textAlignment="textStart"
+                android:paddingLeft="15sp"
+                android:layout_gravity="start"
+                android:background="@drawable/button_effect_sidebar"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/account_icon"
+                android:drawablePadding="15sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Share home"
+                android:onClick="Sharehome"
+                android:id="@+id/Sharehome"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textAlignment="textStart"
+                android:paddingLeft="15sp"
+                android:layout_gravity="start"
+                android:background="@drawable/button_effect_sidebar"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/share_home_icon"
+                android:drawablePadding="15sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Settings"
+                android:onClick="Settings"
+                android:id="@+id/Settings"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textAlignment="textStart"
+                android:paddingLeft="15sp"
+                android:layout_gravity="start"
+                android:background="@drawable/button_effect_sidebar"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/settings_icon"
+                android:drawablePadding="15sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Help and support"
+                android:onClick="Helpsupport"
+                android:id="@+id/Helpsupport"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textAlignment="textStart"
+                android:paddingLeft="15sp"
+                android:layout_gravity="start"
+                android:background="@drawable/button_effect_sidebar"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/help_icon"
+                android:drawablePadding="15sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="Log out"
+                android:onClick="Logout"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textAlignment="textStart"
+                android:paddingLeft="15sp"
+                android:layout_gravity="start"
+                android:background="@drawable/button_effect_sidebar"
+                android:textAllCaps="false"
+                android:drawablePadding="15sp"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

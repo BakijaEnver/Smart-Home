@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Flink Home</string>
+    <string name="title_activity_selam">selam</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_menu_right">MenuRight</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_version">v0.3.4.6</string>
+    <string name="tvApSsidTitle">SSID: </string>
+    <string name="tvPasswordTitle">Password: </string>
+    <string name="switchIsSsidHiddenTitle">SSID is Hidden</string>
+    <string name="spinnerTaskResultCountTitle">Task result count</string>
+    <string name="btnConfirmTitle">Confirm</string>
+
+    <!-- LOGIN & REGISTER -->
+    <string name="login_button">Prijavi se</string>
+    <string name="register_button">Registruj se</string>
+    <string name="username">Korisničko ime</string>
+    <string name="password">Lozinka</string>
+    <string name="forgot_password">Zaboravili ste lozinku?</string>
+    <string name="forgot_password1">Zaboravili ste lozinku</string>
+    <string name="forgot_password_text">Molimo vas da unesete e-mail adresu vašeg računa.</string>
+    <string name="reset_password">Resetiraj lozinku</string>
+    <string name="successfully_reset_password">Vaša lozinka je uspješno resetovana. Molimo provjerite mail inbox.</string>
+    <string name="create_account">Kreirajte račun</string>
+    <string name="first_name">Ime</string>
+    <string name="last_name">Prezime</string>
+    <string name="email_address">Email adresa</string>
+    <string name="re_type_password">Ponovite lozinku</string>
+    <string name="have_an_account">Imate izrađen račun?</string>
+
+    <!-- STEPS -->
+    <string name="step4_title">Korak 4</string>
+    <string name="step4_text">Unesite ime vašeg uređaja (opcionalno).</string>
+    <string name="step3_title">Step 3</string>
+    <string name="step3_text">Izaberite jedan od konektovanih Flink uređaja.</string>
+    <string name="step2_title">Korak 2</string>
+    <string name="step2_text">Unesite lozinku vaše kućne mreže.</string>
+    <string name="step1_title">Korak 1</string>
+    <string name="step1_text">Izaberite tip vašeg Flink uređaja.</string>
+    <string name="name_of_device">Ime uređaja</string>
+    <string name="step4_checkbox">Da li želite kreirati daljinski upravljač za ovaj uređaj odmah?</string>
+    <string name="finish">Gotovo</string>
+    <string name="next_step">Sljedeći korak</string>
+
+    <!-- REMOTE CONFIG & DEVICE -->
+    <string name="remote_configuarion">Konfiguracija upravljača</string>
+    <string name="remote_configuration_text">Molimo vas da isključite vaš klima uređaj ukoliko želite dodati komandu UPALI. \n Za sve druge komande, vaš klima uređaj treba biti upaljen. </string>
+    <string name="edit_commands">Uredi komande</string>
+    <string name="swith">Prekidač</string>
+    <string name="turned_off">Vaš uređaj je isključen.</string>
+    <string name="mode">Mod</string>
+    <string name="temperature">Temp</string>
+    <string name="fan">Brzina</string>
+    <string name="swing">Položaj</string>
+    <string name="choose_room">Izaberite vašu sobu</string>
+    <string name="create_room">Kreirajte novu sobu</string>
+    <string name="home">Početna</string>
+    <string name="my_account">Moj račun</string>
+    <string name="share_home">Podijelite kuću</string>
+    <string name="settings">Postavke</string>
+    <string name="help_support">Pomoć i podrška</string>
+    <string name="logout">Log out</string>
+    <string name="fan_commands">Fan komande</string>
+    <string name="mode_commands">Mod komande</string>
+    <string name="swing_commands">Komande položaja</string>
+    <string name="switch_commands">Prekidačke komande</string>
+    <string name="temperature_commands">Komande za temperaturu</string>
+
+    <!--MY ACCOUNT-->
+    <string name="change_account_details">Promjenite vaše postavke računa</string>
+    <string name="change_your_password">Promjenite vašu lozinku</string>
+    <string name="old_password">Stara lozinka</string>
+    <string name="new_password">Nova lozinka</string>
+    <string name="re_type_new_password">Ponovite novu lozinku</string>
+    <string name="change_password">Promjenite lozinku</string>
+
+    <!-- SETTINGS-->
+    <string name="general_settings">Generalne postavke</string>
+    <string name="sound">Zvuk</string>
+    <string name="notifications">Notifikacije</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="app_information">Informacije i aplikaciji</string>
+    <string name="current_version">Trenutna verzija</string>
+    <string name="app_settings">Postavke aplikacije</string>
+    <string name="choose_language">Izaberite jezik</string>
+
+    <!--SHARE HOME-->
+    <string name="share_home_text">Molimo vas unesite e-mail adresu korisnika kome žellite podijeliti kuću!</string>
+    <string name="email_example">email@hotmail.com</string>
+    <string name="search">Pretraga</string>
+
+    <!--DEVICE POPUPS-->
+    <string name="select_swing_position">Izaberite poziciju vjetra na vašem uređaju.</string>
+    <string name="select_speed_of_device">Izaberite brzinu vaše uređaja.</string>
+    <string name="select_mode_of_device">Izaberite mod vašeg uređaja.</string>
+    <string name="bottom">Bott</string>
+    <string name="low">Low</string>
+    <string name="mid">Mid</string>
+    <string name="high">High</string>
+    <string name="top">Top</string>
+    <string name="max">Max</string>
+    <string name="auto">Auto</string>
+    <string name="cool">Cool</string>
+    <string name="fan_mode">Fan</string>
+    <string name="dry">Dry</string>
+    <string name="heat">Heat</string>
+    <string name="press_command">Pritisnite komandu na vašem upravljaču.</string>
+    <string name="trying_to_connect">Pokušavamo povezati vaš uređaj.\n Molimo pričekajte...</string>
+    <string name="press_ok_button">Pritisnite dugme ispod.</string>
+    <string name="sure_want_to_delete">Da li zaista želite izbrisati ovaj uređaj?</string>
+    <string name="sure">Jeste li sigurni?</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="edit_remote">Uredite upravljač</string>
+    <string name="history">Historija</string>
+    <string name="calendar">Kalendar</string>
+    <string name="delete_device">Izbrišite uređaj</string>
+
+    <!-- APP BAR-->
+    <string name="add_room">Dodaj sobu</string>
+    <string name="add_device">Dodaj uređaj</string>
+
+    <!--POPUPS-->
+    <string name="congratulations">Čestitamo!</string>
+    <string name="successfully_logged_in">Uspješno ste se prijavili.</string>
+    <string name="successfully_device_created">Vaš uređaj je uspješno kreiran.</string>
+    <string name="successfully_user_created">Vaš račun je uspješno kreiran.\n Verifikacijski email je poslan na vašu e-mail adresu.</string>
+    <string name="flink_touch_configuring">FlinkTouch se konfiguriše.\n Molimo pričekajte...</string>
+    <string name="problem_occured_while_connecting">Žao nam je, došlo je do problema pri konektovanju.\nPokušajte ponovo.</string>
+    <string name="there_is_no_internet_connection">Žao nam je, ne postoji internet veza.\nPokušajte ponovo.</string>
+    <string name="room_name">Ime sobe</string>
+    <string name="enter_room_name">Unesite ime sobe kako bi kreirali vašu sobu.</string>
+    <string name="problem_occured_while_connecting_redirect">Žao nam je, došlo je do problema pri konektovanju.\n Pokušajte ponovo.</string>
+
+    <!--CODE-->
+    <string name="password_changed_success">Lozinka uspješno izmijenjena. \nMolimo prijavite se ponovo.</string>
+    <string name="command_add_failed">Dodavanje komande nije uspjelo.</string>
+    <string name="command_added">Komanda dodana.</string>
+    <string name="please_wait">Molimo, pričekajte.</string>
+    <string name="dont_have_any_room">! Nemate nijednu kreiranu sobu. Molimo učinite to ispod.</string>
+    <string name="please_enter_new_name">Molimo unesite novo ime.</string>
+    <string name="please_enter_new_surname">Molimo unesite novo prezime.</string>
+    <string name="please_enter_an_email">Molimo unesite email.</string>
+    <string name="password_do_not_match">Lozinke se ne slažu.</string>
+    <string name="at_least_3">najmanje 3 karaktera</string>
+    <string name="between_4_10">između 4 i 10 znakova</string>
+    <string name="valid_email_address">unesite ispravnu email adresu</string>
+    <string name="room_success_created">Vaša soba je uspješno kreirana.</string>
+    <string name="dont_have_any_devices">! Nemate nijedan uređaj u ovoj sobi. Molimo, učinite to ispod.</string>
+    <string name="wrong_password">Pogrešna lozinka</string>
+    <string name="wrong_username">Pogrešno korisničko ime</string>
+    <string name="password_incorect">Lozinka pogrešna.</string>
+    <string name="sorry_command_not_added">Žao nam je, komanda nije dodana još uvijek.</string>
+    <string name="select_time">Izaberi  vrijeme</string>
+    <string name="select_commands">Izaberi komande</string>
+    <string name="save">Sačuvaj</string>
+    <string name="close">Zatvori</string>
+    <string name="option_added_later">Ova opcija će biti dostupna u sljedećoj verziji.</string>
+    <string name="username_exist">Korisničko ime je zauzeto.</string>
+    <string name="email_exist">E-mail adresa je već u upotrebi.</string>
+    <string name="account_not_approved">Vaš račun nije aktiviran.</string>
+    <string name="firstname_changed">Ime promjenjeno.</string>
+    <string name="lastname_changed">Prezime promjenjeno.</string>
+    <string name="change_room_name">Uredi ime sobe</string>
+    <string name="delete_room">Izbriši sobu</string>
+    <string name="room_settings">Postavke sobe</string>
+    <string name="edit_room_name">Promijeni ime</string>
+    <string name="room_name_changed">Ime sobe je uspješno izmjenjeno.</string>
+    <string name="enter_new_room_name">Unesite novo ime sobe</string>
+    <string name="delete_room_text">Svi uređaji iz ove sobe će biti izbrisani. Da li zaista želite nastaviti?</string>
+    <string name="edit_device_name">Uredi ime uređaja</string>
+    <string name="device_name_changed">Ime uređaja je uspješno izmjenjeno.</string>
+    <string name="enter_new_device_name">Unesite novo ime uređaja</string>
+    <string name="show_password">Prikaži lozinku</string>
+</resources>
